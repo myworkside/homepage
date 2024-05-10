@@ -1,0 +1,96 @@
+body{
+background-color: rgb(223, 237, 250);
+
+    
+}
+.napbar{
+    background-color: rgb(0, 0, 0);
+font-size: 30px;
+border-radius: 9px;
+padding: 5px;
+position: fixed;
+width: 98%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.nicon-a{
+    height: 30ppx;
+    width: auto;
+   color: aliceblue;
+   text-align: left;
+}
+.nicon-b{
+    height: 30ppx;
+    width: auto;
+    color: white;
+    text-align: center;
+
+    
+    
+}
+.nicon-c{
+    height: 30px;
+    width: auto;
+    color: white;
+     text-align: right;
+    
+}
+.nicon-a:hover{
+    color: red;
+    
+}
+.nicon-b:hover{
+    color: red;
+}
+.nicon-c:hover{
+    color: red;
+}
+
+
+.mimg{
+    height: 100px;
+    border-radius: 50%;
+    border:5px solid rgb(252, 255, 47) ;
+}
+.midber{
+    overflow: auto;
+    height: 120px;
+    display: flex;
+    border-radius: 9px;
+    
+}
+.postarea{
+
+}
+.textpost{
+    font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(65, 66, 66);
+}
+.imagpost{
+    width: 600px;
+    border-radius: 9px;
+}
+.adpic{
+    width: 31%;
+    height: auto;
+    border-radius: 15px;
+}
+.join{
+    color: rgb(29, 175, 66);
+    background-color: rgb(49, 33, 190);
+    height: 50px;
+    width: 25%;
+    margin: 45%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.join:hover{
+    background-color: red;
+    color: aliceblue;
+}
